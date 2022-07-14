@@ -20,9 +20,12 @@ import (
 )
 
 var flags = struct {
-	color    string
-	showHelp bool
-}{}
+	color     string
+	showHelp  bool
+	workHours uint
+}{
+	workHours: 8,
+}
 
 type colorType int
 
@@ -54,6 +57,7 @@ Flags:
 	}
 	pflag.StringVarP(&flags.color, "color", "c", "auto", "Color format")
 	pflag.BoolVarP(&flags.showHelp, "help", "h", false, "Show this help text")
+	pflag.UintVar(&flags.workHours, "work-hours", flags.workHours, "Hours in a workday, used in percentage calc")
 }
 
 func main() {
@@ -137,7 +141,7 @@ func main() {
 		sumTimes += task.Elapsed()
 	}
 
-	dayLength := time.Hour * 8
+	dayLength := time.Hour * time.Duration(flags.workHours)
 	dayPercentage := int64(100 * sumTimes / dayLength)
 
 	var sb strings.Builder
