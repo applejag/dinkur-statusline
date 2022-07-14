@@ -142,7 +142,7 @@ func main() {
 
 	var sb strings.Builder
 	if coloring == colorRaujonasExecutor {
-		sb.WriteString("<executor.markup.true>")
+		sb.WriteString("<executor.markup.true> ")
 	}
 	switch coloring {
 	case colorAnsi:
@@ -152,7 +152,7 @@ func main() {
 			sb.WriteString(ansiFgHiBlack)
 		}
 	case colorPango, colorRaujonasExecutor:
-		sb.WriteString(" <span foreground='")
+		sb.WriteString("<span foreground='")
 		if activeEntry != nil {
 			sb.WriteString("lime")
 		} else {
