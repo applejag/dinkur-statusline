@@ -42,7 +42,7 @@ func noColorExists() bool {
 }
 
 const (
-	ansiReset     = "\x1b[0m"
+	ansiReset = "\x1b[0m"
 
 	ansiFgBlack   = "\x1b[30m"
 	ansiFgRed     = "\x1b[31m"
