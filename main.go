@@ -40,7 +40,7 @@ var coloring colorType
 
 func init() {
 	pflag.Usage = func() {
-		fmt.Printf(`Usage: dinkur-statusline [flags]
+		fmt.Fprint(os.Stderr, `Usage: dinkur-statusline [flags]
 
 Shows the status of your local Dinkur database (~/.local/share/dinkur/dinkur.db)
 printed on a single line.
