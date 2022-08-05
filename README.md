@@ -11,6 +11,10 @@ Small CLI to be used as a statusline in e.g:
 
   - Executor - Gnome Shell Extension (<https://raujonas.github.io/executor/>)
 
+  - Waybar - Wayland status bar (<https://github.com/Alexays/Waybar>)
+
+    - Example using Pango coloring: <https://gitea.jillejr.tech/kalle/dotfiles/commit/1b47b12397a62267a38ac7fbeffcd2c3c3887a8d>
+
 ## Installation
 
 Requires Go 1.18 (or higher):
