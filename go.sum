@@ -6,6 +6,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dinkur/dinkur v0.0.0-20220704190634-c3f7c2f686c4 h1:iws8Mf4bUOD4N6us0gpEiNrNGyJErE4T1Ykwas7ZbwY=
 github.com/dinkur/dinkur v0.0.0-20220704190634-c3f7c2f686c4/go.mod h1:wWuUrbuxrTpmwAwuctYxaCLzcxMCu0Mvz90tfwO/qt0=
+github.com/dinkur/dinkur v0.0.0-20220722193848-ff60ad315a26 h1:S9OUA1Ldn3WSZHVqcBtLGex2xzqiL/isYEFVbMyZqw0=
+github.com/dinkur/dinkur v0.0.0-20220722193848-ff60ad315a26/go.mod h1:BCNjWQDQAsKtsV1+hcgSF+hrqaH+0pT/IIIQw5U8lQU=
 github.com/fatih/color v1.13.0 h1:8LOYc1KYPPmyKMuN8QV2DNRWNbLo6LZ0iLs8+mlH53w=
 github.com/iver-wharf/wharf-core/v2 v2.0.0 h1:s9NNkrrej4YXnmqU1Brfk8l38sRGa0j7VdNIKuvbmCQ=
 github.com/iver-wharf/wharf-core/v2 v2.0.0/go.mod h1:05aKqdBnWZ/lKnmlf0aRA986hBQOCvbsGCqe8xzWBkA=
@@ -46,6 +48,8 @@ golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a h1:dGzPydgVsqGcTRVwiLJ1jVbufYwmzD3LfVPLKsKg+0k=
 golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20220804214406-8e32c043e418 h1:9vYwv7OjYaky/tlAeD7C4oC9EsPTlaFl1H2jS++V+ME=
+golang.org/x/sys v0.0.0-20220804214406-8e32c043e418/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
 gopkg.in/typ.v4 v4.1.0 h1:kewbjfYWPUBVaKmAq/sGi7vrU2EJvdQTJjtZDuhMfs0=
 gopkg.in/typ.v4 v4.1.0/go.mod h1:wolXe8DlewxRCjA7SOiT3zjrZ0eQJZcr8cmV6bQWJUM=

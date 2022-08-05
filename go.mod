@@ -3,7 +3,7 @@ module github.com/dinkur/dinkur-statusline
 go 1.18
 
 require (
-	github.com/dinkur/dinkur v0.0.0-20220704190634-c3f7c2f686c4
+	github.com/dinkur/dinkur v0.0.0-20220722193848-ff60ad315a26
 	github.com/mattn/go-colorable v0.1.12
 	github.com/mattn/go-isatty v0.0.14
 	github.com/spf13/pflag v1.0.5
@@ -17,7 +17,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.14 // indirect
 	github.com/olebedev/when v0.0.0-20211212231525-59bd4edcf9d6 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
+	golang.org/x/sys v0.0.0-20220804214406-8e32c043e418 // indirect
 	gopkg.in/typ.v4 v4.1.0 // indirect
 	gorm.io/driver/sqlite v1.3.6 // indirect
 	gorm.io/gorm v1.23.8 // indirect
