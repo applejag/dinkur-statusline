@@ -34,7 +34,9 @@ $ dinkur-statusline --color pango
 
 $ dinkur-statusline --color raujonas-executor
 <executor.markup.true> <span foreground='lime'>1:01:32 (my task name)</span> | 1:01:32 | 12%
+```
 
+```console
 $ dinkur-statusline --help
 Usage: dinkur-statusline [flags]
 
@@ -43,6 +45,7 @@ printed on a single line.
 
 Possible colors:
   --color auto               Means "ansi" if interactive TTY, otherwise means "none"
+  --color ansi               ANSI color-codes, for coloring in the terminal
   --color none               No coloring is applied
   --color pango              Coloring via Pango markup
   --color raujonas-executor  Same as "pango", but with added "<executor.markup.true>" prefix
