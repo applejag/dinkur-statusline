@@ -4,7 +4,7 @@ Small CLI to be used as a statusline in e.g:
 
 | Desktop environment | Addon                                         | Coloring                       |
 | ------------------- | --------------------------------------------- | ------------------------------ |
-| Gnome               | [Executor - Gnome Shell Extension][gnome-exe] | `pango`                        |
+| [Gnome][gnome]      | [Executor - Gnome Shell Extension][gnome-exe] | `pango`                        |
 | *any using Wayland* | [Waybar - Wayland status bar][waybar]         | `pango` ([Example][waybar-ex]) |
 | [AwesomeWM][awm]    | [awful.widget.watch][awm-watch]               | `none` ([Example][awm-ex-1])   |
 | [AwesomeWM][awm]    | [awful.widget.watch][awm-watch]               | `pango` ([Example][awm-ex-2])  |
