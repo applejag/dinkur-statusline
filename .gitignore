@@ -1,2 +1,10 @@
-dinkur-statusline
+# Database files
+*.db
+
+# Built binaries
 *.exe
+/dinkur-statusline
+
+# NPM
+node_modules/
+package-lock.json

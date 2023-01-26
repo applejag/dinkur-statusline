@@ -1,3 +1,4 @@
+// Package main contains the program dinkur-statusline
 package main
 
 import (
@@ -280,6 +281,8 @@ func execCmd(name string, args ...string) (cmdResult, error) {
 	}, nil
 }
 
+// FormatDuration returns a nicely formatted duration as 01:02:03,
+// instead of Go's default of 1h2m3s.
 func FormatDuration(d time.Duration) string {
 	totalSeconds := int64(d / time.Second)
 	var b []byte
