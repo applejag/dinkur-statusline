@@ -2,13 +2,13 @@
 
 Small CLI to be used as a statusline in e.g:
 
-| Desktop environment                 | Addon                                                                              | Coloring                                                                                                                                                   |
-| ----------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Gnome                               | [Executor - Gnome Shell Extension](https://raujonas.github.io/executor/)           | `pango`                                                                                                                                                    |
-| *any using Wayland*                 | [Waybar - Wayland status bar](https://github.com/Alexays/Waybar)                   | `pango` ([Example](https://gitea.jillejr.tech/kalle/dotfiles/commit/1b47b12397a62267a38ac7fbeffcd2c3c3887a8d))                                             |
-| [AwesomeWM](https://awesomewm.org/) | [awful.widget.watch](https://awesomewm.org/apidoc/widgets/awful.widget.watch.html) | `none` ([Example](https://gitea.jillejr.tech/kalle/dotfiles/src/commit/dc34cd10837a9f2781fbe7c7377b14cde33fdc69/awesome/themes/holo/theme.lua#L353-L355))  |
-| [AwesomeWM](https://awesomewm.org/) | [awful.widget.watch](https://awesomewm.org/apidoc/widgets/awful.widget.watch.html) | `pango` ([Example](https://gitea.jillejr.tech/kalle/dotfiles/src/commit/8c57a1b3ef75d2d056848f19fa146ba810f75801/awesome/themes/holo/theme.lua#L353-L357)) |
-| KDE Plasma                          | [Command Output widget](https://github.com/Zren/plasma-applet-commandoutput)       | `ansi`                                                                                                                                                     |
+| Desktop environment | Addon                                         | Coloring                       |
+| ------------------- | --------------------------------------------- | ------------------------------ |
+| Gnome               | [Executor - Gnome Shell Extension][gnome-exe] | `pango`                        |
+| *any using Wayland* | [Waybar - Wayland status bar][waybar]         | `pango` ([Example][waybar-ex]) |
+| [AwesomeWM][awm]    | [awful.widget.watch][awm-watch]               | `none` ([Example][awm-ex-1])   |
+| [AwesomeWM][awm]    | [awful.widget.watch][awm-watch]               | `pango` ([Example][awm-ex-2])  |
+| [KDE Plasma][kde]   | [Command Output widget][kde-cmd]              | `ansi`                         |
 
 ## Installation
 
@@ -50,3 +50,23 @@ Flags:
   -h, --help              Show this help text
       --work-hours uint   Hours in a workday, used in percentage calc (default 8)
 ```
+
+[gnome]: https://www.gnome.org/
+
+[gnome-exe]: https://raujonas.github.io/executor/
+
+[waybar]: https://github.com/Alexays/Waybar
+
+[waybar-ex]: https://gitea.jillejr.tech/kalle/dotfiles/commit/1b47b12397a62267a38ac7fbeffcd2c3c3887a8d
+
+[awm]: https://awesomewm.org/
+
+[awm-watch]: https://awesomewm.org/apidoc/widgets/awful.widget.watch.html
+
+[awm-ex-1]: https://gitea.jillejr.tech/kalle/dotfiles/src/commit/dc34cd10837a9f2781fbe7c7377b14cde33fdc69/awesome/themes/holo/theme.lua#L353-L355
+
+[awm-ex-2]: https://gitea.jillejr.tech/kalle/dotfiles/src/commit/8c57a1b3ef75d2d056848f19fa146ba810f75801/awesome/themes/holo/theme.lua#L353-L357
+
+[kde]: https://kde.org/
+
+[kde-cmd]: https://github.com/Zren/plasma-applet-commandoutput
