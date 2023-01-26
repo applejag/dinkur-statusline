@@ -69,4 +69,4 @@ Flags:
 
 [kde]: https://kde.org/
 
-[kde-cmd]: https://github.com/Zren/plasma-applet-commandoutput
+[kde-cmd]: https://store.kde.org/p/1166510/
