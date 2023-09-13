@@ -123,6 +123,7 @@ func main() {
 
 	tasks, err := db.GetEntryList(ctx, dinkur.SearchEntry{
 		Shorthand: timeutil.TimeSpanThisDay,
+		Limit: 1000,
 	})
 	if err != nil {
 		printErr(err)
